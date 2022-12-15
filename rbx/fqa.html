@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>RBXLINE</title>
+  <link rel="stylesheet" type="text/css" href="assets/style/style.css">
+<!-- Шрифты с Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+
+<!-- Google Fonts "Open Sans" -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,500;0,700;0,800;1,300;1,600&display=swap" rel="stylesheet">
+
+
+<!-- Icons -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+
+
+<div class="">
+  <div class="container-nav">
+
+    <div class="header-line">
+      <div class="header-logo">
+        <a style="color: #fff;" href="index.html"><h1><big>R</big>BX<big>L</big>INE</h1></a>
+      </div>
+      <div class="navbar">
+      <a class="nav-item" href="#home"><ion-icon name="home-outline"></ion-icon> Главная</a>
+      <a class="nav-item" href="login.html"><ion-icon name="cube-outline"></ion-icon> FAQ</a>
+      <a class="nav-item" href="#contact"><ion-icon name="help-outline"></ion-icon> Помощь</a>
+      <a class="nav-item" href="#about"><ion-icon name="chatbubbles-outline"></ion-icon> Контакты</a>
+      </div>
+
+        <div class="btn">
+          <a class="button" href="login.html">Войти <ion-icon name="person-outline"></ion-icon></a>
+          <a class="button reg" href="register.html">Регистрация <ion-icon name="person-outline"></ion-icon></a>
+
+        </div>
+    </div>
+
+
+<div class="faq-container">
+  <button class="faq-block">Вопрос 1</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="faq-block">Вопрос 2</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="faq-block">Вопрос 3</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="faq-block">Вопрос 4</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="faq-block">Вопрос 5</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+  <button class="faq-block">Вопрос 6</button>
+  <div class="panel">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+  </div>
+
+</div>
+
+
+
+<a href=""><h5 style="float: left; margin-left: 110px; margin-top: 30px">Если вы не нашли ответ на свой вопрос обратитесь в Тех.поддержку</h5></a>
+
+
+<script>
+var acc = document.getElementsByClassName("faq-block");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+    acc[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var panel = this.nextElementSibling;
+        if (panel.style.display === "block") {
+            panel.style.display = "none";
+        } else {
+            panel.style.display = "block";
+        }
+    });
+}
+</script>
+
+
+   <div class="footer">
+      <div class="waves">
+          <div class="wave" id="wave1"></div>
+      </div>
+      <ul class="social">
+          <li><a href="#"><ion-icon name="logo-tiktok"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-vk"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-youtube"></ion-icon></a></li>
+          <li><a href="#"><ion-icon name="logo-discord"></ion-icon></a></li>
+
+      </ul>
+
+      <p class="footer__slogan">©2022 RBXLINE | Лучший магазин Roblox за все столетия!</p>
+  </div>
+
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="assets/js/script.js"></script>
+
+</body>
+</html>
