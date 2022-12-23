@@ -26,15 +26,16 @@
 
 <div class="container-profile">
 	<div class="content-profile">
-		<div class="profile-img">
-			<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/User_icon_2.svg/800px-User_icon_2.svg.png">
-		</div>
-	<div class="profile-info">
-			<h2>NickName</h2>
-			<h4>google@gmail.com</h4>	
-	</div>	
+
+    <div class="profile-image__user">
+      <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png">
+  </div>
+
 
 		<div class="block-profile">	
+			<div class="profile-name__user">
+	      	Хасбула Магомедов
+	    </div>
 			<div class="block-balance">
 				<h2>Баланс <ion-icon name="wallet-outline"></ion-icon></h2>
 				<h4>2102 РУБ</h4>
@@ -45,8 +46,28 @@
 			</div>
 		</div>		
 
+<div class="tab">
+  <button class="tablinks" onclick="openCity(event, 'history_buy')">История покупок</button>
+  <button class="tablinks" onclick="openCity(event, 'settings')">Настройки</button>
+  <button class="tablinks" onclick="openCity(event, 'tiket')">Тикеты</button>
+</div>
+
+ 
+<div id="settings" class="tabcontent">
+<h3>Настройки</h3>
+</div>
+
+
+
+
+<div id="tiket" class="tabcontent">
+  <h3>Тикет</h3>
+</div>
+
+<div id="history_buy" class="tabcontent">
+
 		<div class="table-history_buy">
-			<h3 style="margin-bottom: 15px;  margin-top: 30%;">История покупок <ion-icon name="bag-handle-outline"></ion-icon></h3>
+	
 			<table class="table-history">
 			  <tr>
 			    <th>Название товара</th>
@@ -76,7 +97,7 @@
 		</div>
 	</div>
 </div>
-
+</div>
 
 
 <!-- JavaScripts -->
